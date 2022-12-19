@@ -1,0 +1,47 @@
+* {font-family: "Times New Roman";margin: 0;color: black;}
+
+/*
+
+* {
+    border: 1px dashed red;                                                 ESTO ES PARA PONER BORDES ROJOS A TODOS LOS CUADRADOS/DIVISIONES Y QUE SEA MÁS FACIL Y VISUAL VERLAS
+    min-height: 10px;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;                                         ESTO NO TENGO NI IDEA PARA QUE FUNCIONA
+	box-sizing: border-box;}
+
+    ESCRIBIR EN LA CONSOLA PARA HACER FUNCIONAR:   pip3 install flask && python3 server.py
+
+*/
+
+body {background-color: gainsboro;display: flex;flex-direction: column; margin:0; padding:0; border:none;}
+
+.Principal1 {background-color: white;width: 100%;height: 25%;margin:auto; padding:0;}
+
+.Principal2 {width: 100%;height: 75%;}
+
+/*
+h1              POR SI HAY QUE CAMBIAR ALGUN ESTILO DE ESTOS TITULOS
+h2
+.down {background-color: white; margin: 0;width: 600px;height: 50px;border: none;border-top: 0.5px solid gainsboro;}
+*/
+
+.P1Head {margin-left: 500px;}
+
+.Replicar1, .Replicar2, .Replicar3, .Replicar4 {background-color: white;display: flex;width: 600px;height: 500px;flex-direction: column;margin-left: 500px;margin-top: 80px;}
+
+.header {width: 600px;height: 50px;margin:0;display: flex;border: none;border-bottom: 0.5px solid gainsboro;}
+
+.Headh2 {width: 550px;padding: 5px;margin: 0;}
+.Pag1 {width: 50px;color:grey;margin: 0;padding: 13px;}
+
+img {width: 600px;height: 400px;margin: 0;background-size: cover;}
+
+.down {border: none;border-top: 0.5px solid gainsboro;}
+
+p {margin-top: 7px;padding: 2px;margin-bottom: 5px;}
+
+.Replicar4 {margin-bottom: 80px;}
